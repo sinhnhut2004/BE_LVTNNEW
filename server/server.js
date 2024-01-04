@@ -80,7 +80,7 @@ app.use('/apis/product-review', productReviewRoute);
 app.use('/apis/follow', followRoute);
 app.use('/apis/notification', notiRoute);
 app.use('/apis/payment', paymentRoute);
-app.get('/check',(req,res)=>{console.log("ok"); res.send("OK")}) ; 
+app.get('/check',(req,res)=>{console.log("ok"); res.send("allooooooooooo")}) ; 
 
 const socketIO = require('./config/socket.io.config');
 socketIO.init(server);
